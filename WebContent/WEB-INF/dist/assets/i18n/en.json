@@ -1,0 +1,28 @@
+{
+    "Language"    :"Language",
+    "Register below":"Register below",
+    "Themes":"Themes","Red":"Red","Green":"Green","Blue":"Blue",
+     "User ID": "User ID","User Id should have minimum 4 characters":"User Id should have minimum 4 characters",
+     "User Id should have maximum 15 characters":"User Id should have maximum 15 characters",
+    "Password": "Password",
+    "Password is required":"Password is required",
+    "Password should have minimum 8 characters":"Password should have minimum 8 characters",
+    "Password should have maximum 15 characters":"Password should have maximum 15 characters",
+    "Name":"Name",
+    "Name is required":"Name is required",
+    "Name should have minimum 4 characters":"Name should have minimum 4 characters",
+    "Name should have maximum 25 characters":"Name should have maximum 25 characters",
+    "City":"City",
+    "City is required":"City is required",
+    
+    "Email":"Email",
+    "Email is required":"Email is required",
+    "Invalid Email Format":"Invalid Email Format",
+    "Phone Number":"Phone Number",
+    "Phone Number is required":"Phone Number is required",
+    "Register":"Register",
+    "User ID is required":"User ID is required",
+    "You are successfully registered with InfyGo. Use your user id and password to login!":"You are successfully registered with InfyGo. Use your user id and password to login!",
+    "Given user id is already available. Please choose a different one!":"Given user id is already available. Please choose a different one!",
+    "Server error :(":"Server error :("
+}

@@ -1,0 +1,31 @@
+{
+  
+    "Register below":"inscrivez-vous ci-dessous",
+    "Language":"La langue",
+    "Themes":"Des thèmes",
+    "Red":"rouge","Green":"vert","Blue":"Bleu",
+    "User ID": "identifiant d'utilisateur","L'identifiant doit avoir au moins 4 caractères.":"उपयोगकर्ता पहचान में न्यूनतम 4 वर्ण होने चाहिए",
+    "L'identifiant utilisateur doit comporter 15 caractères maximum":"उपयोगकर्ता पहचान में अधिकतम 15 वर्ण होने चाहिए",
+    "Password": "mot de passe",
+    "Password is required":"Mot de passe requis",
+    "Password should have minimum 8 characters":"Le mot de passe doit comporter au moins 8 caractères.",
+    "Password should have maximum 15 characters":"Le mot de passe doit comporter 15 caractères maximum",
+    "Name":"prénom",
+    "Name is required":"Le nom est requis",
+    "Name should have minimum 4 characters":"Le nom doit comporter au minimum 4 caractères.",
+    "Name should have maximum 25 characters":"Le nom doit comporter au maximum 25 caractères.",
+    "City":"ville",
+    "City is required":"Ville est obligatoire",
+    "Email":"Email",
+    "Email is required":"Email est requis",
+    "Phone Number":"Numéro de téléphone",
+    "Invalid Email Format":"Format d'email invalide",
+    "Phone Number is required":"Le numéro de téléphone est obligatoire",
+    "Register":"registre",
+    "User ID is required":"L'identifiant est requis",
+    "You are successfully registered with InfyGo. Use your user id and password to login!":"Vous êtes enregistré avec succès avec InfyGo. Utilisez votre identifiant et votre mot de passe pour vous connecter!",
+    "Given user id is already available. Please choose a different one!":"L'identifiant donné est déjà disponible. Veuillez en choisir un autre!",
+    "Server error :(":"Erreur du serveur :("
+
+
+}

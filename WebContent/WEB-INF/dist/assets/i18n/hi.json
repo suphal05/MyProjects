@@ -1,0 +1,31 @@
+{
+  
+    "Register below":"नीचे रजिस्टर करें",
+    "Language":"भाषा",
+    "Themes":"विषय-वस्तु",
+    "Red":"लाल","Green":"हरा","Blue":"नीला",
+    "User ID": "उपयोगकर्ता पहचान","User Id should have minimum 4 characters":"उपयोगकर्ता पहचान में न्यूनतम 4 वर्ण होने चाहिए",
+    "User Id should have maximum 15 characters":"उपयोगकर्ता पहचान में अधिकतम 15 वर्ण होने चाहिए",
+    "Password": "पासवर्ड",
+    "Password is required":"पासवर्ड की आवश्यकता है",
+    "Password should have minimum 8 characters":"पासवर्ड में कम से कम 8 वर्ण होने चाहिए",
+    "Password should have maximum 15 characters":"पासवर्ड में अधिकतम 15 वर्ण होने चाहिए",
+    "Name":"नाम",
+    "Name is required":"नाम आवश्यक है",
+    "Name should have minimum 4 characters":"नाम में न्यूनतम 4 वर्ण होना चाहिए",
+    "Name should have maximum 25 characters":"नाम में अधिकतम 25 वर्ण होने चाहिए",
+    "City":"शहर",
+    "City is required":"शहर की आवश्यकता है",
+    "Email":"ईमेल",
+    "Email is required":"ईमेल जरुरी है",
+    "Phone Number":"संपर्क संख्या",
+    "Invalid Email Format":"अमान्य ईमेल प्रारूप",
+    "Phone Number is required":"फोन नंबर आवश्यक है",
+    "Register":"रजिस्टर",
+    "User ID is required":"उपयोगकर्ता आईडी आवश्यक है",
+    "You are successfully registered with InfyGo. Use your user id and password to login!":"आप InfyGo के साथ सफलतापूर्वक पंजीकृत हैं लॉगिन करने के लिए अपने उपयोगकर्ता आईडी और पासवर्ड का उपयोग करें!",
+    "Given user id is already available. Please choose a different one!":"दिए गए उपयोगकर्ता आईडी पहले ही उपलब्ध है कृपया एक अलग एक का चयन करें!",
+    "Server error :(":"सर्वर त्रुटि :("
+
+
+}
