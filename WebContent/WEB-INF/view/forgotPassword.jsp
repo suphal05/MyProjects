@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>InfyGo Reservation System</title>
+<title>Let's Fly Reservation System</title>
 
 	<link rel="stylesheet" href="<c:url value='/resources/css/newstyle.css'/>"
 	type="text/css" media="all">
@@ -36,7 +36,7 @@
 							class="icon-bar"></span>
 					</button>
 					<a class="logo1" href="${pageContext.servletContext.contextPath}"><img
-						src="<c:url value='/resources/images/infygonew.PNG'/>" alt=""></a>
+						src="<c:url value='/resources/images/letsfly.png'/>" alt=""></a>
 				</div>
 				</div>
 				</nav>
@@ -61,7 +61,7 @@
 							<div class="col-sm-7 padding-3">
 								<p class="head carousel-content">Connecting flight</p>
 								<p class="carousel-content">Taking more than one flight to
-									get to your final destination? At InfyGo, we make connecting
+									get to your final destination? At Let's Fly, we make connecting
 									flights much easier!</p>
 							</div>
 						</div>
@@ -73,7 +73,7 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7 padding-3">
-								<p class="head carousel-content">InfyGo Meals onboard</p>
+								<p class="head carousel-content">Let's Fly Meals onboard</p>
 								<p class="carousel-content">Tickle your taste buds and enjoy
 									sumptuous meals onboard!</p>
 							</div>
@@ -115,8 +115,8 @@
 					<div class="about-us ">
 						<br>
 						<p>
-							<b>Why InfyGo?<br></b> The leading player in online flight
-							bookings in India, InfyGo provides great offers, some of the
+							<b>Why Let's Fly?<br></b> The leading player in online flight
+							bookings in India, Let's fly provides great offers, some of the
 							lowest airfares, exclusive discounts and a seamless online
 							booking experience. Flight bookings through our website is a
 							user friendly experience, and with just a few clicks you can
@@ -125,16 +125,16 @@
 						<br>
 
 						<p>
-							<b>Booking Flights with InfyGo<br></b> While booking flights
-							with InfyGo, you can expect the ultimate online booking
+							<b>Booking Flights with Let's Fly<br></b> While booking flights
+							with Let's Fly, you can expect the ultimate online booking
 							experience. With premium customer service, 24/7 dedicated
 							helpline for support, and over 5 million delighted users,
-							InfyGo takes great pride in enabling customer satisfaction.
+							Let's fly takes great pride in enabling customer satisfaction.
 						</p>
 						<br>
 
 						<p>
-							<b>Domestic Flights with InfyGo<br></b> InfyGo is India's
+							<b>Domestic Flights with Let's Fly<br></b> Let's Fly is India's
 							leading player for flight bookings, and have a dominant position
 							in the domestic flights sector. With the cheapest fare guarantee,
 							experience great value at the lowest price.
@@ -156,7 +156,7 @@
 				
 					<form:form method="POST" action="resetPassword"
 						modelAttribute="fp">
-					<!-- <h7><font class="control-label col-sm-offset-1 col-sm-3 text-right fontstyle">Email&Phone Provided during registration with InfyGO<span
+					<!-- <h7><font class="control-label col-sm-offset-1 col-sm-3 text-right fontstyle">Email&Phone Provided during registration with Let's fly<span
 										class="red">*</span>
 								</font></h7> -->
 						

@@ -36,7 +36,7 @@
 							class="icon-bar"></span>
 					</button>
 					<a class="logo1" href="${pageContext.servletContext.contextPath}"><img
-						src="<c:url value='/resources/images/infygonew.PNG'/>" alt=""></a>
+						src="<c:url value='/resources/images/letsfly.png'/>" alt=""></a>
 				</div>
 				</div>
 				</nav>
@@ -60,7 +60,7 @@
 						<div class="col-sm-6">
 								<p class="head " style="color:white">Connecting flight</p>
 								<p class="carousel-content  " style="color:white">Taking more than one flight to
-									get to your final destination? At InfyGo, we make connecting
+									get to your final destination? At Let's Fly, we make connecting
 									flights much easier!</p>
 						</div>
 					</div>					
@@ -69,7 +69,7 @@
 					<br><br>
 					<div class="container">
 						<div class="col-sm-6">
-								<p class="head " style="color:white">InfyGo Meals onboard</p>
+								<p class="head " style="color:white">Let's Fly Meals onboard</p>
 								<p class="carousel-content " style="color:white">Tickle your taste buds and enjoy
 									sumptuous meals onboard!</p>
 						</div>
@@ -110,20 +110,20 @@
 					<div class="about-us ">
 						<br>
 												<p>
-							<b>Why InfyGo?<br></b> InfyGo is one of the leading player in online Air bookings in 
+							<b>Why Let's Fly?<br></b> Let's Fly is one of the leading player in online Air bookings in 
 								India which provides great offers like lowest airfares with exclusive discounts for regular 
-								customers with a hassel free online booking experience. InfyGo is user friendly and its 
+								customers with a hassel free online booking experience. Let's fly is user friendly and its 
 								easy to complete your flight booking with just a few clicks away!
 						</p>
 						<br>
 						<p>
-							<b>Book Flights with InfyGo<br></b>With InfyGO you get an ultimate online booking 
+							<b>Book Flights with Let's Fly<br></b>With Let's Fly you get an ultimate online booking 
 								experience with premium customer service by providing dedicated helpline support 24/7 
-								with over 2 million delighted customers. InfyGo takes pride by enabling customer 
+								with over 2 million delighted customers. Let's fly takes pride by enabling customer 
 								satisfaction!					</p>
 						<br>
 						<p>
-							<b>Book Domestic Flights with InfyGo<br></b> InfyGo has a dominant position in the 
+							<b>Book Domestic Flights with Let's Fly<br></b> Let's Fly has a dominant position in the 
 							domestic flights sector by providing the cheapest fare and have a great experience by 
 							providing the tickets at lowest price.
 						</p>

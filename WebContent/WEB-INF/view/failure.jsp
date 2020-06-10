@@ -9,7 +9,7 @@
 	
 	<jsp:include page="header.jsp"></jsp:include>
      
-        <h1>Welcome to Infosys Travels</h1>
+        <h1>Welcome to Let's Fly Travels</h1>
         <br><br>
 
         <h3>${command}</h3>

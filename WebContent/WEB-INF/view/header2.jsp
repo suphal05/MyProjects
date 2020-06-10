@@ -18,7 +18,7 @@
 					</button>
 					<a class="logo1"  href="${pageContext.servletContext.contextPath}">
 						
-				<img id="a" src="<c:url value='/resources/images/infygonew.PNG'/>"></img> 
+				<img id="a" src="<c:url value='/resources/images/letsfly.png'/>"></img> 
 				</a>
 	          </div>
 	        			

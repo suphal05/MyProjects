@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>InfyGo</title>
+<title>Let's Fly</title>
 
 <link rel="stylesheet" href="<c:url value='/resources/css/custom.css'/>"
 	type="text/css" media="all">

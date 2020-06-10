@@ -141,13 +141,16 @@
 				<form:form method="POST" action="searchFlights">
 
 					<!-- Adding radio button for One Way and Round Trip -->
-					
-					<input type="radio" id="oneWay" path="radioCheck" value="oneWay"
-						checked="checked">
-					<label for="oneWay">One Way</label>
-					<input type="radio" id="roundTrip" path="radioCheck"
-						value="roundTrip">
-					<label for="roundTrip">Round Trip</label>
+					<div class="form-group">
+
+						<label for="radioCheck">Select your trip</label><br> <label
+							class="checkbox-inline"><form:radiobutton
+								path="radioCheck" id="oneWay" value="oneWay"/> One Way</label> <label
+							class="checkbox-inline"><form:radiobutton
+								path="radioCheck" id="roundTrip" value="roundTrip" /> Round
+							Trip</label>
+
+					</div>
 
 					<!-- SEARCH -->
 					<div class="container marginbottom-50">
@@ -211,7 +214,7 @@
 							</div>
 
 
-							<div class="form-group col-sm-3">
+							<div class="form-group col-sm-3" style="display:none" id="ret">
 								<form:label path="returnDate" id="returnLabel"
 									class="control-label">Return Date<span class="red">*</span>
 								</form:label>
@@ -346,6 +349,8 @@
 
 											<thead>
 												<tr>
+												    <th><font class=" "><b>Source</b></font></th>
+												    <th><font class=" "><b>Destination</b></font></th>
 													<th><font class=" "><b>Airline</b></font></th>
 													<th><font class=" "><b>Departure Time</b></font></th>
 													<th><font class=" "><b>Arrival Time</b></font></th>
@@ -371,6 +376,8 @@
 												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Time with
 												24-hour clock
 												<tr>
+												    <th><b>Source</b></th>
+													<th><b>Destination</b></th>
 													<th><b>Airline</b></th>
 													<th><b>Departure Time</b></th>
 													<th><b>Arrival Time</b></th>
@@ -384,7 +391,10 @@
 									
 									&nbsp;&nbsp;&nbsp;&nbsp;
 									<tr>
+														<td><form:label style="font-weight:300" path="source">${flight.source} </form:label></td>
 
+														<td><form:label style="font-weight:300"
+																path="destination">${flight.destination} </form:label></td>
 														<td><form:label style="font-weight:300"
 																path="airlines">${flight.airlines}-${flight.flightId} </form:label></td>
 														<td><form:label style="font-weight:300"
@@ -446,7 +456,7 @@
 				<!-- /SOCIAL ICONS -->
 				<div class="col-sm-6 col-sm-pull-6 padding-15">
 					<p>
-						&copy; 2017 <a href="${pageContext.servletContext.contextPath}">InfyGo</a>. All Rights Reserved.
+						&copy; 2017 <a href="${pageContext.servletContext.contextPath}">Let's fly</a>. All Rights Reserved.
 					</p>
 				</div>
 			</div>
@@ -462,6 +472,7 @@
 						function() {
 
 							$("#oneWay").click(function() {
+								$("#ret").hide();
 								$("#datepicker").show();
 								$("#returnLabel").hide();
 								$("#datepicker2").hide();
@@ -470,6 +481,7 @@
 							});
 
 							$("#roundTrip").click(function() {
+								$("#ret").show();
 								$("#datepicker").show();
 								$("#returnLabel").show();
 								$("#datepicker2").show();

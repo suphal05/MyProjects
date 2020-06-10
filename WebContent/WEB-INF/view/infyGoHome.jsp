@@ -30,7 +30,7 @@
 	rel="stylesheet" type="text/css">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="/resources/travel/InfyGo.ico">
+<link rel="shortcut icon" href="/resources/travel/letsfly.ico">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -58,7 +58,7 @@
 							class="icon-bar"></span>
 					</button>
 					<a class="logo1" href=""><img
-						src="<c:url value='/resources/images/infygonew.PNG'/>" alt=""></a>
+						src="<c:url value='/resources/images/letsfly.png'/>" alt=""></a>
 						 
 				</div>
 
@@ -94,8 +94,7 @@
 	
 	<!-- SLIDER -->
 	<section id="slider" class="margintop-10">
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font class="fontstyle"><b>IRS with Angular and Spring MVC</b></font>
-		<div id="home-carousel" class="carousel slide" data-ride="carousel">
+	<div id="home-carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 			<c:if test="${logoutMessage ne null }">
         			 <div class="text-center text-danger"><h4 class="fontstyle"><strong>${logoutMessage}</strong></h4></div>  <br>
@@ -109,7 +108,7 @@
 						<div class="col-sm-6">
 								<p class="head " style="color:white">Connecting flight</p>
 								<p class="carousel-content  " style="color:white">Taking more than one flight to
-									get to your final destination? At InfyGo, we make connecting
+									get to your final destination? At Let's fly, we make connecting
 									flights much easier!</p>
 						</div>
 					</div>					
@@ -118,7 +117,7 @@
 					<br><br>
 					<div class="container">
 						<div class="col-sm-6">
-								<p class="head " style="color:white">InfyGo Meals onboard</p>
+								<p class="head " style="color:white">Lets Fly Meals onboard</p>
 								<p class="carousel-content " style="color:white">Tickle your taste buds and enjoy
 									sumptuous meals onboard!</p>
 						</div>
@@ -162,22 +161,22 @@
 					<div class="about-us ">
 						<br>
 						<p>
-							<b>Why InfyGo?<br></b> InfyGo is one of the leading player in online Air bookings in 
+							<b>Why Let's Fly?<br></b> Let's fly is one of the leading player in online Air bookings in 
 								India which provides great offers like lowest airfares with exclusive discounts for regular 
-								customers with a hassel free online booking experience. InfyGo is user friendly and its 
+								customers with a hassel free online booking experience. Let's Fly is user friendly and its 
 								easy to complete your flight booking with just a few clicks away!
 						</p>
 						<br>
 
 						<p>
-							<b>Book Flights with InfyGo<br></b>With InfyGO you get an ultimate online booking 
+							<b>Book Flights with Let's Fly<br></b>With Let's Fly you get an ultimate online booking 
 							experience with premium customer service by providing dedicated helpline support 24/7 
-							with over 2 million delighted customers. InfyGo takes pride by enabling customer 
+							with over 2 million delighted customers. Let's fly takes pride by enabling customer 
 							satisfaction!					</p>
 						<br>
 
 						<p>
-							<b>Book Domestic Flights with InfyGo<br></b> InfyGo has a dominant position in the 
+							<b>Book Domestic Flights with Let's Fly<br></b> Let's Fly has a dominant position in the 
 							domestic flights sector by providing the cheapest fare and have a great experience by 
 							providing the tickets at lowest price.
 						</p>
@@ -204,17 +203,16 @@
 					<!-- <p class="contact-content">MService.</p>-->
 					<br>
 					<p class="st-address">
-						<i class="fa fa-map-marker"></i> Airport Sales Counter No-01,
-						Bengaluru International Airport,Devanhalli, Bengaluru 560300
+						<i class="fa fa-map-marker"></i> We are virtual we dont have any address
 					</p>
 					<p class="st-phone">
-						<i class="fa fa-mobile"></i> 09949596999
+						<i class="fa fa-mobile"></i> 0123456789
 					</p>
 					<p class="st-email">
-						<i class="fa fa-envelope-o"></i> InfyGo@infosys.com
+						<i class="fa fa-envelope-o"></i> Let's Fly@letsfly.com
 					</p>
 					<p class="st-website">
-						<i class="fa fa-globe"></i> www.InfyGo.com
+						<i class="fa fa-globe"></i> www.letsfly.com
 					</p>
 
 				</div>
@@ -282,7 +280,7 @@
 				<!-- /SOCIAL ICONS -->
 				<div class="col-sm-6 col-sm-pull-6 padding-15">
 					<p>
-						&copy; 2017 <a href="${pageContext.servletContext.contextPath}">InfyGo</a>. All Rights Reserved.
+						&copy; 2017 <a href="${pageContext.servletContext.contextPath}">Let's fly</a>. All Rights Reserved.
 					</p>
 				</div>
 			</div>

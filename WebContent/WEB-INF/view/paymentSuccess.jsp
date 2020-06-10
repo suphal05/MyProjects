@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>InfyGo</title>
+<title>Let's Fly</title>
 
 <!--<link rel="stylesheet" href="<c:url value='/resources/css/custom.css'/>"
 	type="text/css" media="all">
@@ -128,7 +128,7 @@
 												type="radio" name="once2" value="once2"> Once in a
 											while <br> <input type="radio" name="never2"
 												value="never2"> Not At All <br> <br> <br>
-											Is InfyGO airlines your most favorite? <br>
+											Is Let's fly airlines your most favorite? <br>
 											<input type="radio" name="yes" value="yes" checked>
 											Yes <br> <input type="radio" name="no" value="no ">
 											No <br> <br>
