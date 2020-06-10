@@ -100,7 +100,7 @@ public class FlightServiceTest {
 		Mockito.when(flightRepository.findFlightDetails("hyderabad","chennai",calendarJourneyDateInside)).thenReturn(flights);
 		try
      	{
-       		flightsReturned = flightService.getFlights("hyderabad","chennai", calendarJourneyDateInside);
+       		flightsReturned = flightService.getFlights("hyderabad","chennai", calendarJourneyDateInside, null);
        		
        		for (FlightEntity f : flights) {
        			SearchFlights flight = new SearchFlights();
@@ -123,7 +123,7 @@ public class FlightServiceTest {
 	{
 		e.expect(InvalidJourneyDateException.class);
 		e.expectMessage("FlightService.INVALID_JOURNEYDATE");
-		flightService.getFlights("hyderabad", "chennai", calendar);
+		flightService.getFlights("hyderabad", "chennai", calendar, null);
 	}
 	@Test
 	public void testGetFlightsNegativeNotAvailable() throws FlightNotAvailableException, InvalidJourneyDateException,Exception
@@ -132,7 +132,7 @@ public class FlightServiceTest {
 		calendarJourneyDate.set(2017, 12, 12);
 		e.expect(FlightNotAvailableException.class);
 		e.expectMessage("FlightService.FLIGHT_NOT_AVAILABLE");
-		flightService.getFlights("hyderabad", "chennai", calendarJourneyDate);
+		flightService.getFlights("hyderabad", "chennai", calendarJourneyDate,null);
 	}
 	@Test
 	public void testUpdateFlightPositive()
